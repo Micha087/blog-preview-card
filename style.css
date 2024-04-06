@@ -37,7 +37,7 @@ img {
   padding: 18px;
 }
 .illustration img {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 .blog-preview-card span {
   background-color: var(--Yellow);
