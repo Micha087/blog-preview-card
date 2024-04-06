@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Black: hsl(0, 0%, 7%);
+  --Grey: hsl(0, 0%, 50%);
+  --White: hsl(0, 0%, 100%);
+  --Yellow: hsl(47, 88%, 63%);
+}
+body {
+  align-items: center;
+  background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  justify-content: center;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.blog-preview-card {
+  align-items: flex-start;
+  background-color: var(--White);
+  border-radius: 1rem;
+  border: solid 1px var(--Black);
+  box-shadow: 9px 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+  padding: 18px;
+}
+.illustration img {
+  border-radius: 1rem;
+}
+.blog-preview-card span {
+  background-color: var(--Yellow);
+  border-radius: 0.3rem;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 20px;
+  padding: 7px 10px 7px;
+}
+.blog-preview-card time {
+  color: var(--Black);
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 13px;
+}
+.blog-preview-card h1 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.blog-preview-card h1:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+.blog-preview-card p {
+  color: var(--Grey);
+  margin-top: 15px;
+}
+.profile-pic {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 34px;
+}
+.profile-pic figcaption {
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.attribution {
+  font-size: 11px;
+  margin-top: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375px) {
+  .blog-preview-card {
+    max-width: 330px;
+  }
+}
+@media (max-width: 350px) {
+  .blog-preview-card {
+    max-width: 310px;
+  }
+}
+@media (max-width: 330px) {
+  .blog-preview-card {
+    max-width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .blog-preview-card {
+    max-width: 290px;
+  }
+}
+@media (max-width: 310px) {
+  .blog-preview-card {
+    max-width: 270px;
+  }
+}
+@media (max-width: 290px) {
+  .blog-preview-card {
+    max-width: 260px;
+  }
+}
+@media (max-width: 280px) {
+  .blog-preview-card {
+    max-width: 250px;
+  }
+}
