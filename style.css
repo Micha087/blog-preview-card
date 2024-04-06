@@ -39,16 +39,16 @@ img {
 .illustration img {
   border-radius: 0.5rem;
 }
-.blog-preview-card span {
+.learning {
   background-color: var(--Yellow);
   border-radius: 0.3rem;
   display: inline-block;
   font-size: 13px;
   font-weight: 800;
   margin-top: 20px;
-  padding: 7px 10px 7px;
+  padding: 6px 10px 6px;
 }
-.blog-preview-card time {
+.published {
   color: var(--Black);
   font-size: 13px;
   font-weight: 500;
@@ -63,7 +63,7 @@ img {
   color: var(--Yellow);
   cursor: pointer;
 }
-.blog-preview-card p {
+.overview {
   color: var(--Grey);
   margin-top: 15px;
 }
@@ -77,7 +77,7 @@ img {
 .profile-pic figcaption {
   font-size: 14px;
   font-weight: 800;
-  margin-left: 10px;
+  margin-left: 12px;
   margin-top: 10px;
   white-space: nowrap;
 }
@@ -108,10 +108,16 @@ img {
   .blog-preview-card {
     max-width: 290px;
   }
+  .blog-preview-card h1 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 310px) {
   .blog-preview-card {
     max-width: 270px;
+  }
+  .blog-preview-card h1 {
+    font-size: 18px;
   }
 }
 @media (max-width: 290px) {
