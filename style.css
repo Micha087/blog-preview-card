@@ -68,8 +68,9 @@ img {
   margin-top: 15px;
 }
 .profile-pic {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
+  gap: 1rem;
   justify-content: flex-start;
   margin-top: 20px;
   width: 34px;
@@ -77,8 +78,6 @@ img {
 .profile-pic figcaption {
   font-size: 14px;
   font-weight: 800;
-  margin-left: 12px;
-  margin-top: 10px;
   white-space: nowrap;
 }
 .attribution {
