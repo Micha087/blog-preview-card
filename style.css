@@ -25,14 +25,12 @@ img {
   max-width: 100%;
 }
 .blog-preview-card {
-  align-items: flex-start;
   background-color: var(--White);
   border-radius: 1rem;
   border: solid 1px var(--Black);
   box-shadow: 9px 9px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   max-width: 350px;
   padding: 18px;
 }
@@ -40,9 +38,9 @@ img {
   border-radius: 0.5rem;
 }
 .learning {
+  align-self: flex-start;
   background-color: var(--Yellow);
   border-radius: 0.3rem;
-  display: inline-block;
   font-size: 13px;
   font-weight: 800;
   margin-top: 20px;
