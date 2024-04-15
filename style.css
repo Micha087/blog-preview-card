@@ -28,7 +28,7 @@ img {
   background-color: var(--White);
   border-radius: 1rem;
   border: solid 1px var(--Black);
-  box-shadow: 9px 9px;
+  box-shadow: 7px 7px;
   display: flex;
   flex-direction: column;
   max-width: 350px;
@@ -90,16 +90,6 @@ img {
     max-width: 330px;
   }
 }
-@media (max-width: 350px) {
-  .blog-preview-card {
-    max-width: 310px;
-  }
-}
-@media (max-width: 330px) {
-  .blog-preview-card {
-    max-width: 300px;
-  }
-}
 @media (max-width: 320px) {
   .blog-preview-card {
     max-width: 290px;
@@ -108,21 +98,11 @@ img {
     font-size: 20px;
   }
 }
-@media (max-width: 310px) {
-  .blog-preview-card {
-    max-width: 270px;
-  }
-  .blog-preview-card h1 {
-    font-size: 18px;
-  }
-}
-@media (max-width: 290px) {
-  .blog-preview-card {
-    max-width: 260px;
-  }
-}
 @media (max-width: 280px) {
   .blog-preview-card {
     max-width: 250px;
+  }
+  .blog-preview-card h1{
+    font-size: 18px;
   }
 }
